@@ -4,13 +4,13 @@ const HeroServices = () => {
   return (
     <div className="flex justify-between items-start mb-12">
       <div>
-        <h1 className="text-4xl font-bold text-white mb-2 font-montserrat">
+        <h1 className="text-5xl font-bold text-white mb-4 font-montserrat">
           Наши услуги
         </h1>
-        <p className="text-blue-200 text-lg">
-          Мы предлагаем профессиональные услуги
+        <p className="text-blue-200/80 text-xl leading-relaxed">
+          Мы оказываем юридические услуги высокого
           <br />
-          высокого качества для вашего бизнеса
+          качества для частных лиц и бизнеса
         </p>
       </div>
       <Button
