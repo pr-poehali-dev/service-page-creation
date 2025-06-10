@@ -2,23 +2,20 @@ import { Button } from "@/components/ui/button";
 
 const HeroServices = () => {
   return (
-    <div className="flex justify-between items-start mb-12">
+    <div className="flex justify-between items-start mb-16">
       <div>
-        <h1 className="text-5xl font-bold text-white mb-4 font-montserrat">
+        <h1 className="text-4xl font-bold text-white mb-6 font-montserrat">
           Наши услуги
         </h1>
-        <p className="text-blue-200/80 text-xl leading-relaxed">
-          Мы оказываем юридические услуги высокого
+        <p className="text-blue-200/90 text-lg leading-relaxed max-w-2xl">
+          Мы предлагаем профессиональные юридические
           <br />
-          качества для частных лиц и бизнеса
+          консультации для бизнеса и частных лиц
         </p>
       </div>
-      <Button
-        variant="outline"
-        className="bg-transparent border-white text-white hover:bg-white hover:text-blue-900 transition-all duration-300"
-      >
+      <button className="bg-transparent border border-white/30 text-white px-6 py-2 rounded-md hover:bg-white/10 transition-all duration-300 text-sm">
         Все услуги
-      </Button>
+      </button>
     </div>
   );
 };
